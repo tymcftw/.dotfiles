@@ -1,0 +1,1 @@
+complete --command python -m harlogger --no-files --arguments "(env _PYTHON _M HARLOGGER_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=get-args _TYPER_COMPLETE_ARGS=(commandline -cp) python -m harlogger)" --condition "env _PYTHON _M HARLOGGER_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=is-args _TYPER_COMPLETE_ARGS=(commandline -cp) python -m harlogger"

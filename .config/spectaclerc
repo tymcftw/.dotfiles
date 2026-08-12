@@ -1,0 +1,10 @@
+[General]
+ocrLanguages=afr
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/tymcftw/Documents/Screenshot_20260623_080711.png
+lastImageSaveLocation=file:///home/tymcftw/Pictures/Screenshots/Screenshot_20260810_173847.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

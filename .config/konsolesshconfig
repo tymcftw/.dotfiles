@@ -1,0 +1,12 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][66.169.110.63]
+hostname=66.169.110.63
+identifier=66.169.110.63
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=
+useSshConfig=true
+username=

@@ -1,0 +1,27 @@
+[CompactMode]
+IconSize=32
+
+[DetailsMode]
+PreviewSize=32
+
+[General]
+EditableUrl=true
+FilterBar=true
+LockPanels=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+Version=202
+ViewPropsTimestamp=2026,4,27,13,56,34.45
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[PreviewSettings]
+Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,papers,evince,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
+
+[UiSettings]
+ColorScheme=BreezeDark

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "xtool-x86_64",
+    "version": "1.17.0",
+    "raw_update_info": "gh-releases-zsync|xtool-org|xtool|latest|xtool-x86_64.AppImage.zsync",
+    "icon_name": "xtool-x86_64",
+    "description": "",
+    "desktop_name": "xtool",
+    "size_on_disk": 53594616,
+    "command_line_args": "",
+    "path": "/home/tymcftw/Projects/xtool-x86_64.AppImage",
+    "update_url": "",
+    "update_type": "none",
+    "repo_owner": null,
+    "repo_name": null,
+    "allow_prerelease": false
+  },
+  {
+    "name": "Impactor-linux-x86_64",
+    "version": "Unknown",
+    "raw_update_info": "",
+    "icon_name": "impactor-linux-x86_64",
+    "description": "Feature rich iOS sideloading application",
+    "desktop_name": "Plume Impactor",
+    "size_on_disk": 18373112,
+    "command_line_args": "",
+    "path": "/home/tymcftw/Projects/Impactor-linux-x86_64.AppImage",
+    "update_url": "",
+    "update_type": "none",
+    "repo_owner": null,
+    "repo_name": null,
+    "allow_prerelease": false
+  }
+]

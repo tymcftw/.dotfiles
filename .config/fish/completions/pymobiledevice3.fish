@@ -1,0 +1,1 @@
+complete --command pymobiledevice3 --no-files --arguments "(env _PYMOBILEDEVICE3_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=get-args _TYPER_COMPLETE_ARGS=(commandline -cp) pymobiledevice3)" --condition "env _PYMOBILEDEVICE3_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=is-args _TYPER_COMPLETE_ARGS=(commandline -cp) pymobiledevice3"

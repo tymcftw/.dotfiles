@@ -1,0 +1,20 @@
+[General]
+count=1
+rules=efbd0ee4-731a-4df7-8f90-0b3890a0d498
+
+[efbd0ee4-731a-4df7-8f90-0b3890a0d498]
+Description=Application settings for kitty
+above=true
+aboverule=3
+position=20,25
+positionrule=2
+size=1880,500
+sizerule=2
+skippager=true
+skippagerrule=3
+skipswitcher=true
+skipswitcherrule=3
+skiptaskbar=true
+skiptaskbarrule=3
+wmclass=kitty
+wmclassmatch=1

@@ -1,0 +1,16 @@
+[Added Associations]
+application/octet-stream=org.kde.kate.desktop;
+audio/AMR=mpv.desktop;vlc.desktop;
+audio/x-mod=org.kde.haruna.desktop;
+text/csv=firefox.desktop;
+text/html=firefox.desktop;calibre-ebook-edit.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;micro.desktop;vim.desktop;nvim.desktop;libreoffice-writer.desktop;
+
+[Default Applications]
+application/octet-stream=org.kde.kate.desktop;
+audio/AMR=mpv.desktop;
+audio/x-mod=org.kde.haruna.desktop;
+text/html=firefox.desktop;
+x-scheme-handler/bitwarden=bitwarden.desktop
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+x-scheme-handler/proxyman=proxyman.desktop
+x-scheme-handler/ssh=kitty-open.desktop
