@@ -138,6 +138,8 @@ UseSystemBell=true
 
 [KDE]
 AnimationDurationFactor=0.25
+AutomaticLookAndFeelOnIdle=false
+DefaultDarkLookAndFeel=CachyOS-Nord
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=false
 contrast=4

@@ -1,8 +1,8 @@
-[PlasmaViews][Panel 2]
+[PlasmaViews][Panel 70]
 floating=1
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 2][Defaults]
+[PlasmaViews][Panel 70][Defaults]
 thickness=46
 
 [Updates]

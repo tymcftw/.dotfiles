@@ -1,2 +1,4 @@
 [General]
 dbVersion=2
+folders[$e]=$HOME/,/mnt/SD1/,/mnt/WD1/
+index hidden folders=true
