@@ -258,6 +258,9 @@ switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
+[services][kitty.desktop]
+_launch=F12
+
 [services][org.kde.spectacle.desktop]
 CurrentMonitorScreenShot=none
 OpenWithoutScreenshot=none

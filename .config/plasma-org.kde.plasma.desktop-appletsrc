@@ -57,8 +57,16 @@ plugin=org.kde.plasma.icon
 localPath=/home/tymcftw/.local/share/plasma_icons/com.shellyorg.shelly (1).desktop
 url=file:///usr/share/applications/com.shellyorg.shelly.desktop
 
+[Containments][126][Applets][143]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][126][Applets][143][Configuration]
+localPath=/home/tymcftw/.local/share/plasma_icons/kitty (1).desktop
+url=file:///usr/share/applications/kitty.desktop
+
 [Containments][126][General]
-AppletOrder=139;137;140;141;142
+AppletOrder=139;137;140;141;142;143
 
 [Containments][69]
 ItemGeometries-1920x1080=
