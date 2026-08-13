@@ -5469,18 +5469,6 @@ Encoding=ISO-8859-1
 Time=2026,8,9,23,36,55.948,UTC
 URL=file:///home/tymcftw/output/AppDomainGroup-group.com.apple.iBooks/Library/Preferences/group.com.apple.iBooks.plist
 
-[file:///mnt/SD1/WindowsImageBackup/DESKTOP-G3EB4VL/Logs/Backup_Error-31-12-2025_04-34-52.log]
-Checksum=54463430aa76ece1fe80e03acaac55a739ebd383
-Encoding=UTF-16LE
-Time=2026,7,13,18,59,55.628,UTC
-URL=file:///mnt/SD1/WindowsImageBackup/DESKTOP-G3EB4VL/Logs/Backup_Error-31-12-2025_04-34-52.log
-
-[file:///mnt/SD1/WindowsImageBackup/DESKTOP-G3EB4VL/Logs/Backup_Error-31-12-2025_04-57-46.log]
-Checksum=d4489fa6dac9a00db116e497a6ce2efb0b9282b4
-Encoding=UTF-16LE
-Time=2026,7,13,18,59,50.404,UTC
-URL=file:///mnt/SD1/WindowsImageBackup/DESKTOP-G3EB4VL/Logs/Backup_Error-31-12-2025_04-57-46.log
-
 [file:///mnt/SD1/backups/imessage_export/tyleriphone12/backup_01012026/raw/Status.plist]
 Checksum=3faa94bd2390ebd9ff6e3636941176957879fb13
 Encoding=ISO-8859-1
