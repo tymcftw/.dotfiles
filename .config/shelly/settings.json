@@ -32,6 +32,7 @@
   "AurRemoveCascadeDelete": true,
   "AurUpdateRunChecks": false,
   "AurUpdateShowHidden": false,
+  "SearchShowDetailPane": false,
   "TrayEnabled": true,
   "TrayAutoStart": false,
   "TrayCheckIntervalHours": 72,

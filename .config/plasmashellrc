@@ -14,13 +14,6 @@ thickness=64
 maxLength=478
 minLength=478
 
-[PlasmaViews][Panel 134]
-floating=1
-shell=org.kde.plasma.desktop
-
-[PlasmaViews][Panel 134][Defaults]
-thickness=36
-
 [PlasmaViews][Panel 94]
 alignment=2
 floating=1
