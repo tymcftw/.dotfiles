@@ -9,12 +9,12 @@ if test -z "$SSH_AUTH_SOCK"
 end
 
 # Export SSH_AUTH_SOCK from systemd user runtime dir
-# set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemd --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR) )
-# Fallback if above fails
+# set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemctl --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR) )
 
-if test -z "$SSH_AUTH_SOCK"
-    set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.sock
-end
+# Fallback if above fails
+# if test -z "$SSH_AUTH_SOCK"
+#     set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.sock
+# end
 
 # tide configure --auto --style=Rainbow --prompt_colors='16 colors' --show_time='12-hour format' --rainbow_prompt_separators=Slanted --powerline_prompt_heads=Slanted --powerline_prompt_tails=Slanted --powerline_prompt_style='Two
 # lines, character and frame' --prompt_connection=Disconnected --powerline_right_prompt_frame=Yes --prompt_spacing=Sparse --icons='Many icons' --transient=Yes

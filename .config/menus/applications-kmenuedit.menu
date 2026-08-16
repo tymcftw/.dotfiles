@@ -30,6 +30,7 @@
    <Filename>org.squey.Squey.desktop</Filename>
    <Filename>org.pyzo.pyzo.desktop</Filename>
    <Filename>sqlitebrowser.desktop</Filename>
+   <Filename>de.philippun1.Snoop.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -87,10 +88,16 @@
  </Menu>
  <Menu>
   <Name>Utilities</Name>
+  <Exclude>
+   <Filename>sqlitebrowser.desktop</Filename>
+   <Filename>de.philippun1.Snoop.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
    <Merge type="files"/>
+   <Filename>org.gnome.Nautilus.desktop</Filename>
+   <Filename>io.github.idescriptor.iDescriptor.desktop</Filename>
    <Filename>org.kde.ark.desktop</Filename>
    <Filename>bitwarden.desktop</Filename>
    <Filename>blobsaver.desktop</Filename>
@@ -109,7 +116,6 @@
    <Filename>limine-snapper-restore.desktop</Filename>
    <Filename>micro.desktop</Filename>
    <Filename>nvim.desktop</Filename>
-   <Filename>impactor-linux-x86_64.desktop</Filename>
    <Filename>com.pori.app.desktop</Filename>
    <Filename>scrcpy.desktop</Filename>
    <Filename>scrcpy-console.desktop</Filename>
@@ -119,8 +125,5 @@
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
-  <Exclude>
-   <Filename>sqlitebrowser.desktop</Filename>
-  </Exclude>
  </Menu>
 </Menu>
