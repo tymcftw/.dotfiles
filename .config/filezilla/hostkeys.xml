@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.70.6" platform="*nix">
+	<Server Host="ftp60.sonicb.it" Port="22">
+		<Hostkey>AAAAC3NzaC1lZDI1NTE5AAAAIPS06iuSVknCzwsRkTLlUJak7wcuGZa2JpwF92nCKwz+</Hostkey>
+	</Server>
+</FileZilla3>
