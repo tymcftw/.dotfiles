@@ -31,21 +31,17 @@
 
 server_names = ['altername', 'ams-dnscrypt-nl', 'd0wn-tz-ns1', 'dct-at1', 'dct-de1', 'dct-nl1', 'dct-ru1', 'dns.watch', 'dnscrypt.be', 'dnscrypt.ca-1', 'dnscrypt.ca-2', 'dnscrypt.pl', 'dnscrypt.uk-ipv4', 'dnswarden-uncensor-dc-swiss', 'meganerd', 'openinternet', 'plan9dns-fl', 'plan9dns-mx', 'plan9dns-nj', 'pryv8boi', 'sby-limotelu', 'scaleway-ams', 'scaleway-fr', 'serbica', 'starrydns', 'techsaviours.org-dnscrypt', 'v.dnscrypt.uk-ipv4']
 
-
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
 ## Example with both IPv4 and IPv6:
 ## listen_addresses = ['127.0.0.1:53', '[::1]:53']
 ##
 ## To listen to all IPv4 addresses, use `listen_addresses = ['0.0.0.0:53']`
 ## To listen to all IPv4+IPv6 addresses, use `listen_addresses = ['[::]:53']`
-
 listen_addresses = ['127.0.0.1:53']
 
 
 ## Maximum number of simultaneous client connections to accept
-
 max_clients = 250
-
 
 ## Switch to a different system user after listening sockets have been created.
 ## Note (1): this feature is currently unsupported on Windows.
@@ -53,7 +49,6 @@ max_clients = 250
 ## Note (3): when using -pidfile, the PID file directory must be writable by the new user
 
 # user_name = 'nobody'
-
 
 ## Require servers (from remote sources) to satisfy specific properties
 
@@ -72,7 +67,6 @@ doh_servers = false
 # Use servers implementing the Oblivious DoH protocol
 odoh_servers = false
 
-
 ## Require servers defined by remote sources to satisfy specific properties
 
 # Server must support DNS security extensions (DNSSEC)
@@ -87,15 +81,13 @@ require_nofilter = true
 # Server names to avoid even if they match all criteria
 disabled_server_names = []
 
-
 ## Always use TCP to connect to upstream servers.
 ## This can be useful if you need to route everything through Tor.
 ## Otherwise, leave this to `false`, as it doesn't improve security
 ## (dnscrypt-proxy will always encrypt everything even using UDP), and can
 ## only increase latency.
 
-force_tcp = true
-
+force_tcp = false
 
 ## Enable *experimental* support for HTTP/3 (DoH3, HTTP over QUIC)
 ## Note that, like DNSCrypt but unlike other HTTP versions, this uses
@@ -103,19 +95,16 @@ force_tcp = true
 
 http3 = false
 
-
 ## SOCKS proxy
 ## Uncomment the following line to route all TCP connections to a local Tor node
 ## Tor doesn't support UDP, so set `force_tcp` to `true` as well.
 
 # proxy = 'socks5://127.0.0.1:9050'
 
-
 ## HTTP/HTTPS proxy
 ## Only for DoH servers
 
 # http_proxy = 'http://127.0.0.1:8888'
-
 
 ## How long a DNS query will wait for a response, in milliseconds.
 ## If you have a network with *a lot* of latency, you may need to
@@ -124,11 +113,9 @@ http3 = false
 
 timeout = 1000
 
-
 ## Keepalive for HTTP (HTTPS, HTTP/2, HTTP/3) queries, in seconds
 
 keepalive = 30
-
 
 ## Add EDNS-client-subnet information to outgoing queries
 ##
@@ -137,14 +124,12 @@ keepalive = 30
 
 # edns_client_subnet = ['0.0.0.0/0', '2001:db8::/32']
 
-
 ## Response for blocked queries. Options are `refused`, `hinfo` (default) or
 ## an IP response. To give an IP response, use the format `a:<IPv4>,aaaa:<IPv6>`.
 ## Using the `hinfo` option means that some responses will be lies.
 ## Unfortunately, the `hinfo` option appears to be required for Android 8+
 
 blocked_query_response = 'refused'
-
 
 ## Load-balancing strategy: 'p2' (default), 'ph', 'p<n>', 'first' or 'random'
 ## Randomly choose 1 of the fastest 2, half, n, 1 or all live servers by latency.
@@ -158,11 +143,9 @@ blocked_query_response = 'refused'
 
 # lb_estimator = true
 
-
 ## Log level (0-6, default: 2 - 0 is very verbose, 6 only contains fatal errors)
 
 # log_level = 0
-
 
 ## Log file for the application, as an alternative to sending logs to
 ## the standard system logging service (syslog/Windows event log).
@@ -170,23 +153,20 @@ blocked_query_response = 'refused'
 ## This file is different from other log files, and will not be
 ## automatically rotated by the application.
 
-# log_file = 'dnscrypt-proxy.log'
-
+log_file = 'dnscrypt-proxy.log'
 
 ## When using a log file, only keep logs from the most recent launch.
 
-# log_file_latest = true
+log_file_latest = true
 
 
 ## Use the system logger (syslog on Unix, Event Log on Windows)
 
 # use_syslog = true
 
-
 ## Delay, in minutes, after which certificates are reloaded
 
 cert_refresh_delay = 240
-
 
 ## Initially don't check DNSCrypt server certificates for expiration, and
 ## only start checking them after a first successful connection to a resolver.
@@ -194,18 +174,15 @@ cert_refresh_delay = 240
 
 # cert_ignore_timestamp = false
 
-
 ## DNSCrypt: Create a new, unique key for every single DNS query
 ## This may improve privacy but can also have a significant impact on CPU usage
 ## Only enable if you don't have a lot of network load
 
-dnscrypt_ephemeral_keys = true
-
+dnscrypt_ephemeral_keys = false
 
 ## DoH: Disable TLS session tickets - increases privacy but also latency
 
 # tls_disable_session_tickets = false
-
 
 ## DoH: Use a specific cipher suite instead of the server preference
 ## 49199 = TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
@@ -223,7 +200,6 @@ dnscrypt_ephemeral_keys = true
 ## connecting to some DoH servers. Google and Cloudflare are fine with it.
 
 # tls_cipher_suite = [52392, 49199]
-
 
 ## Bootstrap resolvers
 ##
@@ -257,11 +233,9 @@ dnscrypt_ephemeral_keys = true
 
 bootstrap_resolvers = ['45.11.45.11:53']
 
-
 ## Always use the bootstrap resolver before the system DNS settings.
 
 ignore_system_dns = true
-
 
 ## Maximum time (in seconds) to wait for network connectivity before
 ## initializing the proxy.
@@ -283,13 +257,11 @@ netprobe_timeout = -1
 
 netprobe_address = '45.11.45.11:53'
 
-
 ## Offline mode - Do not use any remote encrypted servers.
 ## The proxy will remain fully functional to respond to queries that
 ## plugins can handle directly (forwarding, cloaking, ...)
 
 # offline_mode = false
-
 
 ## Additional data to attach to outgoing queries.
 ## These strings will be added as TXT records to queries.
@@ -299,7 +271,6 @@ netprobe_address = '45.11.45.11:53'
 ## in the [access_control] section
 
 # query_meta = ['key1:value1', 'key2:value2', 'token:MySecretToken']
-
 
 ## Automatic log files rotation
 
@@ -312,8 +283,6 @@ log_files_max_age = 7
 # Maximum log files backups to keep (or 0 to keep all backups)
 log_files_max_backups = 1
 
-
-
 #########################
 #        Filters        #
 #########################
@@ -323,31 +292,25 @@ log_files_max_backups = 1
 ## below and blocklists).
 ## You can still choose resolvers that do DNSSEC validation.
 
-
 ## Immediately respond to IPv6-related queries with an empty response
 ## This makes things faster when there is no IPv6 connectivity, but can
 ## also cause reliability issues with some stub resolvers.
 
 block_ipv6 = true
 
-
 ## Immediately respond to A and AAAA queries for host names without a domain name
 
 block_unqualified = true
-
 
 ## Immediately respond to queries for local zones instead of leaking them to
 ## upstream resolvers (always causing errors or timeouts).
 
 block_undelegated = true
 
-
 ## TTL for synthetic responses sent when a request has been blocked (due to
 ## IPv6 or blocklists).
 
 reject_ttl = 10
-
-
 
 ##################################################################################
 #        Route queries for specific domains to a dedicated set of servers        #
@@ -356,8 +319,6 @@ reject_ttl = 10
 ## See the `example-forwarding-rules.txt` file for an example
 
 # forwarding_rules = 'forwarding-rules.txt'
-
-
 
 ###############################
 #        Cloaking rules       #
@@ -378,8 +339,6 @@ reject_ttl = 10
 # cloak_ttl = 600
 # cloak_ptr = false
 
-
-
 ###########################
 #        DNS cache        #
 ###########################
@@ -388,32 +347,25 @@ reject_ttl = 10
 
 cache = true
 
-
 ## Cache size
 
 cache_size = 4096
-
 
 ## Minimum TTL for cached entries
 
 cache_min_ttl = 2400
 
-
 ## Maximum TTL for cached entries
 
 cache_max_ttl = 86400
-
 
 ## Minimum TTL for negatively cached entries
 
 cache_neg_min_ttl = 60
 
-
 ## Maximum TTL for negatively cached entries
 
 cache_neg_max_ttl = 600
-
-
 
 ########################################
 #        Captive portal handling       #
@@ -426,8 +378,6 @@ cache_neg_max_ttl = 600
 ## IP addresses to return.
 
 # map_file = 'example-captive-portals.txt'
-
-
 
 ##################################
 #        Local DoH server        #
@@ -443,7 +393,6 @@ cache_neg_max_ttl = 600
 
 listen_addresses = ['127.0.0.1:3000']
 
-
 ## Path of the DoH URL. This is not a file, but the part after the hostname
 ## in the URL. By convention, `/dns-query` is frequently chosen.
 ## For each `listen_address` the complete URL to access the server will be:
@@ -451,14 +400,11 @@ listen_addresses = ['127.0.0.1:3000']
 
 path = '/dns-query'
 
-
 ## Certificate file and key - Note that the certificate has to be trusted.
 ## See the documentation (wiki) for more information.
 
 cert_file = 'localhost.pem'
 cert_key_file = 'localhost.pem'
-
-
 
 ###############################
 #        Query logging        #
@@ -473,17 +419,13 @@ cert_key_file = 'localhost.pem'
 
 # file = 'query.log'
 
-
 ## Query log format (currently supported: tsv and ltsv)
 
 format = 'tsv'
 
-
 ## Do not log these query types, to reduce verbosity. Keep empty to log everything.
 
 # ignored_qtypes = ['DNSKEY', 'NS']
-
-
 
 ############################################
 #        Suspicious queries logging        #
@@ -499,12 +441,9 @@ format = 'tsv'
 
 # file = 'nx.log'
 
-
 ## Query log format (currently supported: tsv and ltsv)
 
 format = 'tsv'
-
-
 
 ######################################################
 #        Pattern-based blocking (blocklists)         #
@@ -529,17 +468,13 @@ format = 'tsv'
 
 blocked_names_file = 'blocked-names.txt'
 
-
 ## Optional path to a file logging blocked queries
 
 # log_file = 'blocked-names.log'
 
-
 ## Optional log format: tsv or ltsv (default: tsv)
 
 # log_format = 'tsv'
-
-
 
 ###########################################################
 #        Pattern-based IP blocking (IP blocklists)        #
@@ -557,17 +492,13 @@ blocked_names_file = 'blocked-names.txt'
 
 blocked_ips_file = 'blocked-ips.txt'
 
-
 ## Optional path to a file logging blocked queries
 
 # log_file = 'blocked-ips.log'
 
-
 ## Optional log format: tsv or ltsv (default: tsv)
 
 # log_format = 'tsv'
-
-
 
 ######################################################
 #   Pattern-based allow lists (blocklists bypass)    #
@@ -585,17 +516,13 @@ blocked_ips_file = 'blocked-ips.txt'
 
 allowed_names_file = 'allowed-names.txt'
 
-
 ## Optional path to a file logging allowed queries
 
 # log_file = 'allowed-names.log'
 
-
 ## Optional log format: tsv or ltsv (default: tsv)
 
 # log_format = 'tsv'
-
-
 
 #########################################################
 #   Pattern-based allowed IPs lists (blocklists bypass) #
@@ -613,7 +540,6 @@ allowed_names_file = 'allowed-names.txt'
 
 allowed_ips_file = 'allowed-ips.txt'
 
-
 ## Optional path to a file logging allowed queries
 
 # log_file = 'allowed-ips.log'
@@ -621,8 +547,6 @@ allowed_ips_file = 'allowed-ips.txt'
 ## Optional log format: tsv or ltsv (default: tsv)
 
 # log_format = 'tsv'
-
-
 
 ##########################################
 #        Time access restrictions        #
@@ -656,8 +580,6 @@ allowed_ips_file = 'allowed-ips.txt'
   #   wed = [{after='9:00', before='18:00'}]
   #   thu = [{after='9:00', before='18:00'}]
   #   fri = [{after='9:00', before='17:00'}]
-
-
 
 #########################
 #        Servers        #
@@ -732,8 +654,6 @@ allowed_ips_file = 'allowed-ips.txt'
   #   cache_file = 'parental-control.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
 
-
-
 #########################################
 #        Servers with known bugs        #
 #########################################
@@ -753,8 +673,6 @@ allowed_ips_file = 'allowed-ips.txt'
 
 fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familyshield-ipv6', 'cleanbrowsing-adult', 'cleanbrowsing-adult-ipv6', 'cleanbrowsing-family', 'cleanbrowsing-family-ipv6', 'cleanbrowsing-security', 'cleanbrowsing-security-ipv6']
 
-
-
 #################################################################
 #        Certificate-based client authentication for DoH        #
 #################################################################
@@ -770,8 +688,6 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 # creds = [
 #    { server_name='*', client_cert='client.crt', client_key='client.key' }
 # ]
-
-
 
 ################################
 #        Anonymized DNS        #
@@ -840,19 +756,15 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
  ]
 
-
 ## Skip resolvers incompatible with anonymization instead of using them directly
 
 skip_incompatible = true
-
 
 ## If public server certificates for a non-conformant server cannot be
 ## retrieved via a relay, try getting them directly. Actual queries
 ## will then always go through relays.
 
 direct_cert_fallback = false
-
-
 
 ###############################
 #            DNS64            #
@@ -886,8 +798,6 @@ direct_cert_fallback = false
 ## IMPORTANT: Default resolvers listed below support Well-Known Prefix 64:ff9b::/96 only.
 
 # resolver = ['[2606:4700:4700::64]:53', '[2001:4860:4860::64]:53']
-
-
 
 ########################################
 #            Static entries            #
