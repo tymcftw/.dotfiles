@@ -1,0 +1,31 @@
+# ==============================================================================
+# AutoSync - Configuration Example
+# Save this file as: ~/.config/autosync/config.toml
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# PATH RULES:
+# - Starts with "~" : Relative to your home folder (e.g., ~/Documents).
+# - Starts with "/" : Absolute local path. (Warning: Ensure your user has read/write permissions for this path).
+# - Starts with a word: Rclone Remote. (You must configure your remotes in rclone first, e.g., GDrive:).
+# ------------------------------------------------------------------------------
+
+# EXAMPLE 1: Minimal setup (Local to Local)
+# If "log" is omitted, it defaults to ~/.local/state/autosync/
+[[pairs]]
+path1 = "~/Documents/Projects"
+path2 = "~/Backups/Projects"
+
+# EXAMPLE 2: Cloud Sync with Custom Local Log
+# Syncs a local folder to a cloud remote and saves the log in a specific folder.
+[[pairs]]
+path1 = "~/Pictures/Wallpapers"
+path2 = "googledrive:Backups/Wallpapers"
+log = "~/Logs/wallpapers_sync"
+
+# EXAMPLE 3: Absolute Path with Remote Log
+# Syncs a mounted drive and uploads the log directly to the cloud.
+[[pairs]]
+path1 = "/mnt/data/server_files"
+path2 = "dropbox:ServerBackup"
+log = "googledrive:Logs/server_files_log"
