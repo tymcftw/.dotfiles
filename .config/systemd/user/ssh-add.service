@@ -1,0 +1,11 @@
+[Unit]
+Description=Add private key identities to the SSH agent
+PartOf=ssh-agent.service
+After=ssh-agent.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/tymcftw/.local/bin/systemd-ssh-add
+
+[Install]
+WantedBy=ssh-agent.service
