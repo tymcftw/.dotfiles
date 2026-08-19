@@ -31,6 +31,9 @@
    <Filename>org.pyzo.pyzo.desktop</Filename>
    <Filename>sqlitebrowser.desktop</Filename>
    <Filename>de.philippun1.Snoop.desktop</Filename>
+   <Filename>me.kavishdevar.librepods.desktop</Filename>
+   <Filename>RClone Manager.desktop</Filename>
+   <Filename>com.cloudflare.WarpTaskbar.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -125,5 +128,34 @@
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
+ </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.haruna.desktop</Filename>
+   <Filename>mpv.desktop</Filename>
+   <Filename>qv4l2.desktop</Filename>
+   <Filename>qvidcap.desktop</Filename>
+   <Filename>vlc.desktop</Filename>
+   <Filename>org.pulseaudio.pavucontrol.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>me.kavishdevar.librepods.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.foreground-booster.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>RClone Manager.desktop</Filename>
+   <Filename>com.cloudflare.WarpTaskbar.desktop</Filename>
+  </Exclude>
  </Menu>
 </Menu>
