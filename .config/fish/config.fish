@@ -11,12 +11,9 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 ####################################
 ## Start SSH Agent if not running ##
 ####################################
-if not set -q SSH_AUTH_SOCK
-    ssh-agent -c | source
-end
 
 # Export SSH_AUTH_SOCK from systemd user runtime dir
-# set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemctl --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR))
+set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemctl --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR))
 
 #############################
 ## Fallback if above fails ##
@@ -53,6 +50,7 @@ set PATH /home/tymcftw/.cargo/bin /home/linuxbrew/.linuxbrew/bin /home/linuxbrew
 set SOPS_EDITOR nano
 set EDITOR nano
 set QT_QPA_PLATFORM xcb
+set PAGER more
 
 ## -- End Aliases ------------------------------------------------------ ##
 
