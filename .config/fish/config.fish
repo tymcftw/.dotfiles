@@ -10,8 +10,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 ####################################
 ## Start SSH Agent if not running ##
 ####################################
-# Export SSH_AUTH_SOCK from systemd user runtime dir
-# set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemctl --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR))
+set -x SSH_AUTH_SOCK (printf '%s/ssh-agent.sock' (systemctl --user show-environment 2>/dev/null; echo $XDG_RUNTIME_DIR))
 
 #############################
 ## Fallback if above fails ##
