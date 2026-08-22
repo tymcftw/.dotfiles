@@ -16,9 +16,9 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #############################
 ## Fallback if above fails ##
 #############################
-# if not set -q SSH_AUTH_SOCK
-#     set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.sock
-# end
+if not set -q SSH_AUTH_SOCK
+    set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.sock
+end
 
 #################
 ## Tide Prompt ##
