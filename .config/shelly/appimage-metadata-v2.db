@@ -30,5 +30,21 @@
     "repo_owner": null,
     "repo_name": null,
     "allow_prerelease": false
+  },
+  {
+    "name": "OneKeePass_0.25.0_Linux_x86_64",
+    "version": "Unknown",
+    "raw_update_info": "",
+    "icon_name": "onekeepass_0.25.0_linux_x86_64",
+    "description": "Password Manager",
+    "desktop_name": "OneKeePass",
+    "size_on_disk": 94460408,
+    "command_line_args": "",
+    "path": "/home/tymcftw/.local/bin/OneKeePass_0.25.0_Linux_x86_64.AppImage",
+    "update_url": "",
+    "update_type": "none",
+    "repo_owner": null,
+    "repo_name": null,
+    "allow_prerelease": false
   }
 ]

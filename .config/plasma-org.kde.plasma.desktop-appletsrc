@@ -57,16 +57,40 @@ plugin=org.kde.plasma.icon
 localPath=/home/tymcftw/.local/share/plasma_icons/com.shellyorg.shelly (1).desktop
 url=file:///usr/share/applications/com.shellyorg.shelly.desktop
 
-[Containments][126][Applets][143]
+[Containments][126][Applets][144]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][126][Applets][143][Configuration]
-localPath=/home/tymcftw/.local/share/plasma_icons/kitty (1).desktop
-url=file:///usr/share/applications/kitty.desktop
+[Containments][126][Applets][144][Configuration]
+localPath=/home/tymcftw/.local/share/plasma_icons/org.darktable.darktable (1).desktop
+url=file:///usr/share/applications/org.darktable.darktable.desktop
+
+[Containments][126][Applets][145]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][126][Applets][145][Configuration]
+localPath=/home/tymcftw/.local/share/plasma_icons/org.keepassxc.KeePassXC (3).desktop
+url=file:///usr/share/applications/org.keepassxc.KeePassXC.desktop
+
+[Containments][126][Applets][146]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][126][Applets][146][Configuration]
+localPath=/home/tymcftw/.local/share/plasma_icons/org.kde.kcalc (1).desktop
+url=file:///usr/share/applications/org.kde.kcalc.desktop
+
+[Containments][126][Applets][147]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][126][Applets][147][Configuration]
+localPath=/home/tymcftw/.local/share/plasma_icons/signal (1).desktop
+url=file:///usr/share/applications/signal.desktop
 
 [Containments][126][General]
-AppletOrder=139;137;140;141;142;143
+AppletOrder=139;137;140;141;142;144;145;146;147
 
 [Containments][69]
 ItemGeometries-1920x1080=

@@ -31,9 +31,11 @@
    <Filename>org.pyzo.pyzo.desktop</Filename>
    <Filename>sqlitebrowser.desktop</Filename>
    <Filename>de.philippun1.Snoop.desktop</Filename>
-   <Filename>me.kavishdevar.librepods.desktop</Filename>
    <Filename>RClone Manager.desktop</Filename>
    <Filename>com.cloudflare.WarpTaskbar.desktop</Filename>
+   <Filename>onekeepass_0.25.0_linux_x86_64.desktop</Filename>
+   <Filename>me.kavishdevar.librepods.desktop</Filename>
+   <Filename>com.pori.app.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -94,13 +96,14 @@
   <Exclude>
    <Filename>sqlitebrowser.desktop</Filename>
    <Filename>de.philippun1.Snoop.desktop</Filename>
+   <Filename>me.kavishdevar.librepods.desktop</Filename>
+   <Filename>com.pori.app.desktop</Filename>
   </Exclude>
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
    <Merge type="files"/>
    <Filename>org.gnome.Nautilus.desktop</Filename>
-   <Filename>io.github.idescriptor.iDescriptor.desktop</Filename>
    <Filename>org.kde.ark.desktop</Filename>
    <Filename>bitwarden.desktop</Filename>
    <Filename>blobsaver.desktop</Filename>
@@ -109,17 +112,14 @@
    <Filename>org.kde.plasma.emojier.desktop</Filename>
    <Filename>org.kde.filelight.desktop</Filename>
    <Filename>idevicegui.desktop</Filename>
-   <Filename>iloader.desktop</Filename>
    <Filename>org.kde.kate.desktop</Filename>
    <Filename>org.kde.kcalc.desktop</Filename>
    <Filename>org.keepassxc.KeePassXC.desktop</Filename>
    <Filename>org.kde.kfind.desktop</Filename>
    <Filename>org.kde.kwrite.desktop</Filename>
-   <Filename>me.kavishdevar.librepods.desktop</Filename>
    <Filename>limine-snapper-restore.desktop</Filename>
    <Filename>micro.desktop</Filename>
    <Filename>nvim.desktop</Filename>
-   <Filename>com.pori.app.desktop</Filename>
    <Filename>scrcpy.desktop</Filename>
    <Filename>scrcpy-console.desktop</Filename>
    <Filename>com.shellyorg.shelly.desktop</Filename>
@@ -156,6 +156,73 @@
   <Exclude>
    <Filename>RClone Manager.desktop</Filename>
    <Filename>com.cloudflare.WarpTaskbar.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Office</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>calibre-gui.desktop</Filename>
+   <Filename>org.gnome.Evince.desktop</Filename>
+   <Filename>org.gnome.Papers.desktop</Filename>
+   <Filename>calibre-ebook-edit.desktop</Filename>
+   <Filename>calibre-ebook-viewer.desktop</Filename>
+   <Filename>libreoffice-base.desktop</Filename>
+   <Filename>libreoffice-calc.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>libreoffice-impress.desktop</Filename>
+   <Filename>libreoffice-math.desktop</Filename>
+   <Filename>libreoffice-startcenter.desktop</Filename>
+   <Filename>libreoffice-writer.desktop</Filename>
+   <Filename>calibre-lrfviewer.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>onekeepass_0.25.0_linux_x86_64.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>btop.desktop</Filename>
+   <Filename>btrfs-assistant.desktop</Filename>
+   <Filename>cachyos-hello.desktop</Filename>
+   <Filename>org.cachyos.KernelManager.desktop</Filename>
+   <Filename>cachyos-pi.desktop</Filename>
+   <Filename>io.github.thetumultuousunicornofdarkness.cpu-x.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>gparted.desktop</Filename>
+   <Filename>lstopo.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>org.kde.partitionmanager.desktop</Filename>
+   <Filename>kdiskmark.desktop</Filename>
+   <Filename>kitty.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Filename>org.kde.kwalletmanager.desktop</Filename>
+   <Filename>org.kde.kmenuedit.desktop</Filename>
+   <Filename>jconsole-java-openjdk.desktop</Filename>
+   <Filename>jshell-java-openjdk.desktop</Filename>
+   <Filename>qt5ct.desktop</Filename>
+   <Filename>qt6ct.desktop</Filename>
+   <Filename>org.cachyos.scx-manager.desktop</Filename>
+   <Filename>com.shellyorg.shelly.desktop</Filename>
+   <Filename>snapper-gui.desktop</Filename>
+   <Filename>org.kde.plasma-systemmonitor.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+   <Filename>org.pulseaudio.pavucontrol.desktop</Filename>
+   <Filename>winboat.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>com.pori.app.desktop</Filename>
   </Exclude>
  </Menu>
 </Menu>
