@@ -10,8 +10,6 @@
 ##
 ## Online documentation is available here: https://dnscrypt.info/doc
 
-
-
 ##################################
 #         Global settings        #
 ##################################
@@ -38,7 +36,6 @@ server_names = ['altername', 'ams-dnscrypt-nl', 'd0wn-tz-ns1', 'dct-at1', 'dct-d
 ## To listen to all IPv4 addresses, use `listen_addresses = ['0.0.0.0:53']`
 ## To listen to all IPv4+IPv6 addresses, use `listen_addresses = ['[::]:53']`
 listen_addresses = ['127.0.0.1:53']
-
 
 ## Maximum number of simultaneous client connections to accept
 max_clients = 250
@@ -153,12 +150,11 @@ blocked_query_response = 'refused'
 ## This file is different from other log files, and will not be
 ## automatically rotated by the application.
 
-log_file = 'dnscrypt-proxy.log'
+log_file = "/home/tymcftw/Logs/dnscrypt-proxy/dnscrypt-proxy.log"
 
 ## When using a log file, only keep logs from the most recent launch.
 
 log_file_latest = true
-
 
 ## Use the system logger (syslog on Unix, Event Log on Windows)
 
@@ -318,7 +314,7 @@ reject_ttl = 10
 
 ## See the `example-forwarding-rules.txt` file for an example
 
-# forwarding_rules = 'forwarding-rules.txt'
+forwarding_rules = "/home/tymcftw/.config/dnscrypt-proxy/forwarding-rules.txt"
 
 ###############################
 #        Cloaking rules       #
@@ -332,7 +328,7 @@ reject_ttl = 10
 ##
 ## See the `example-cloaking-rules.txt` file for an example
 
-# cloaking_rules = 'cloaking-rules.txt'
+cloaking_rules = "/home/tymcftw/.config/dnscrypt-proxy/cloaking-rules.txt"
 
 ## TTL used when serving entries in cloaking-rules.txt
 
@@ -417,7 +413,7 @@ cert_key_file = 'localhost.pem'
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 ## Can be set to /dev/stdout in order to log to the standard output.
 
-# file = 'query.log'
+file = "/home/tymcftw/Logs/dnscrypt-proxy/query.log"
 
 ## Query log format (currently supported: tsv and ltsv)
 
@@ -439,7 +435,7 @@ format = 'tsv'
 
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 
-# file = 'nx.log'
+file = "/home/tymcftw/Logs/dnscrypt-proxy/nx.log"
 
 ## Query log format (currently supported: tsv and ltsv)
 
@@ -466,11 +462,11 @@ format = 'tsv'
 
 ## Path to the file of blocking rules (absolute, or relative to the same directory as the config file)
 
-blocked_names_file = 'blocked-names.txt'
+blocked_names_file = "/home/tymcftw/.config/dnscrypt-proxy/blocked-names.txt"
 
 ## Optional path to a file logging blocked queries
 
-# log_file = 'blocked-names.log'
+log_file = "/home/tymcftw/Logs/dnscrypt-proxy/blocked-names.log"
 
 ## Optional log format: tsv or ltsv (default: tsv)
 
@@ -490,11 +486,11 @@ blocked_names_file = 'blocked-names.txt'
 
 ## Path to the file of blocking rules (absolute, or relative to the same directory as the config file)
 
-blocked_ips_file = 'blocked-ips.txt'
+blocked_ips_file = "/home/tymcftw/.config/dnscrypt-proxy/blocked-ips.txt"
 
 ## Optional path to a file logging blocked queries
 
-# log_file = 'blocked-ips.log'
+log_file = "/home/tymcftw/Logs/dnscrypt-proxy/blocked-ips.log"
 
 ## Optional log format: tsv or ltsv (default: tsv)
 
@@ -514,11 +510,11 @@ blocked_ips_file = 'blocked-ips.txt'
 
 ## Path to the file of allow list rules (absolute, or relative to the same directory as the config file)
 
-allowed_names_file = 'allowed-names.txt'
+allowed_names_file = "/home/tymcftw/.config/dnscrypt-proxy/allowed-names.txt"
 
 ## Optional path to a file logging allowed queries
 
-# log_file = 'allowed-names.log'
+log_file = "/home/tymcftw/Logs/dnscrypt-proxy/allowed-names.log"
 
 ## Optional log format: tsv or ltsv (default: tsv)
 
@@ -538,11 +534,11 @@ allowed_names_file = 'allowed-names.txt'
 
 ## Path to the file of allowed ip rules (absolute, or relative to the same directory as the config file)
 
-allowed_ips_file = 'allowed-ips.txt'
+allowed_ips_file = "/home/tymcftw/.config/dnscrypt-proxy/allowed-ips.txt"
 
 ## Optional path to a file logging allowed queries
 
-# log_file = 'allowed-ips.log'
+log_file = "/home/tymcftw/Logs/dnscrypt-proxy/allowed-ips.log"
 
 ## Optional log format: tsv or ltsv (default: tsv)
 

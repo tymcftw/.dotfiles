@@ -645,7 +645,7 @@ CMakeLists.txt.user*
 ### Ruby ###
 *.gem
 *.rbc
-/.config
+# /.config
 /coverage/
 /InstalledFiles
 /pkg/
