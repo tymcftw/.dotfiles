@@ -1,0 +1,41 @@
+{
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "#reading",
+      true
+    ],
+    [
+      "#read",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      true
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "#read",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_was_run": true
+}
