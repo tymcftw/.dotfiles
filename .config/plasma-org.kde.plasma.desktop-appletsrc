@@ -19,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][126][Applets][137][Configuration]
-localPath=/home/tymcftw/.local/share/plasma_icons/firefox (3).desktop
+localPath=/home/tymcftw/.local/share/plasma_icons/firefox (1).desktop
 url=file:///usr/share/applications/firefox.desktop
 
 [Containments][126][Applets][139]
@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][126][Applets][140][Configuration]
-localPath=/home/tymcftw/.local/share/plasma_icons/org.kde.dolphin (3).desktop
+localPath=/home/tymcftw/.local/share/plasma_icons/org.kde.dolphin (1).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][126][Applets][141]
@@ -46,7 +46,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][126][Applets][141][Configuration]
-localPath=/home/tymcftw/.local/share/plasma_icons/calibre-gui (3).desktop
+localPath=/home/tymcftw/.local/share/plasma_icons/calibre-gui (2).desktop
 url=file:///usr/share/applications/calibre-gui.desktop
 
 [Containments][126][Applets][142]
@@ -69,6 +69,7 @@ url=file:///usr/share/applications/kitty.desktop
 AppletOrder=139;137;140;141;142;143
 
 [Containments][69]
+ItemGeometries-0x0=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=233a36be-7884-472a-8b6b-2a2005392e70
@@ -182,6 +183,13 @@ plugin=org.kde.plasma.diskquota
 
 [Containments][94][Applets][108][Applets][144]
 immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][94][Applets][108][Applets][144][Configuration][General]
+migrated=true
+
+[Containments][94][Applets][108][Applets][145]
+immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][94][Applets][108][ConfigDialog]
@@ -189,8 +197,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][94][Applets][108][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.diskquota,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.diskquota,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 shownItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier
 
 [Containments][94][Applets][125]

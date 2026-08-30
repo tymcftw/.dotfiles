@@ -1,35 +1,24 @@
 {
+  "auto add path choose": "/home/tymcftw/Downloads/ingest",
   "sort_history": [
     [
       "timestamp",
       false
     ],
     [
+      "timestamp",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "pubdate",
+      false
+    ],
+    [
       "#reading",
-      true
-    ],
-    [
-      "#read",
-      true
-    ],
-    [
-      "timestamp",
-      false
-    ],
-    [
-      "timestamp",
-      true
-    ],
-    [
-      "title",
-      false
-    ],
-    [
-      "timestamp",
-      false
-    ],
-    [
-      "#read",
       true
     ],
     [

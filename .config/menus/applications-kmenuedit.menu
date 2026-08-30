@@ -31,6 +31,7 @@
    <Filename>org.pyzo.pyzo.desktop</Filename>
    <Filename>sqlitebrowser.desktop</Filename>
    <Filename>de.philippun1.Snoop.desktop</Filename>
+   <Filename>wine-Programs-Codebook-Codebook.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -125,5 +126,12 @@
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Layout/>
+  <Exclude>
+   <Filename>wine-Programs-Codebook-Codebook.desktop</Filename>
+  </Exclude>
  </Menu>
 </Menu>

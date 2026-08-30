@@ -1,2 +1,5 @@
 [Devices]
 connectedDevices=
+
+[General]
+bluetoothBlocked=true
