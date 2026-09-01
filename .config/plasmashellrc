@@ -6,13 +6,13 @@ panelVisibility=1
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 126][Defaults]
-maxLength=478
-minLength=478
+maxLength=446
+minLength=446
 thickness=64
 
 [PlasmaViews][Panel 126][Horizontal1920]
-maxLength=478
-minLength=478
+maxLength=446
+minLength=446
 
 [PlasmaViews][Panel 94]
 alignment=2
