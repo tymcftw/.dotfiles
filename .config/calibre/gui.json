@@ -4,16 +4,76 @@
   ],
   "auto_add_auto_convert": false,
   "auto_add_check_for_duplicates": true,
+<<<<<<< HEAD
+=======
+  "auto_add_everything": true,
+>>>>>>> 3824021 (yes)
   "auto_add_path": "/home/tymcftw/Downloads/ingest",
   "basic_metadata_widget_splitter_state": {
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAADAAAA7QAAAWMAAAEKAf////8BAAAAAQA="
   },
+<<<<<<< HEAD
+=======
+  "blocked_auto_formats": [
+    "book",
+    "cb7",
+    "cbc",
+    "cbr",
+    "cbz",
+    "chm",
+    "djv",
+    "docm",
+    "fb2",
+    "fbz",
+    "htm",
+    "html",
+    "htmlz",
+    "iba",
+    "ibook",
+    "ibooks",
+    "imp",
+    "kepub",
+    "kfx",
+    "kpf",
+    "lit",
+    "lrf",
+    "lrx",
+    "odt",
+    "oebzip",
+    "oxps",
+    "pdb",
+    "pml",
+    "pmlz",
+    "pobi",
+    "prc",
+    "ps",
+    "rar",
+    "rb",
+    "snb",
+    "text",
+    "textile",
+    "tpz",
+    "updb",
+    "xhtm",
+    "xhtml",
+    "xps",
+    "zbf",
+    "zip"
+  ],
+>>>>>>> 3824021 (yes)
   "book_list_pin_splitter_state": {
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
   "bookshelf view visible": false,
+<<<<<<< HEAD
+=======
+  "choose-merge-dialog-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABjgAAAQAA/////wEAAAABAA=="
+  },
+>>>>>>> 3824021 (yes)
   "cover_grid_background": {
     "dark": [
       45,
@@ -184,30 +244,103 @@
       }
     }
   },
+<<<<<<< HEAD
+=======
+  "geometry-of-choose-merge-dialog-geometry": {
+    "frame_geometry": {
+      "height": 654,
+      "width": 676,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 654,
+      "width": 676,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 654,
+      "width": 676,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAAqMAAAKNAAAAAAAAAAAAAAKjAAACjQAAAAAAAAAAB4AAAAAAAAAAAAAAAqMAAAKN"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "eDP-1-0x123D",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+>>>>>>> 3824021 (yes)
   "geometry-of-duplicates-question-dialog-geometry": {
     "frame_geometry": {
       "height": 380,
       "width": 540,
+<<<<<<< HEAD
       "x": 680,
       "y": 278
+=======
+      "x": 0,
+      "y": 0
+>>>>>>> 3824021 (yes)
     },
     "full_screened": false,
     "geometry": {
       "height": 380,
       "width": 540,
+<<<<<<< HEAD
       "x": 680,
       "y": 278
+=======
+      "x": 0,
+      "y": 0
+>>>>>>> 3824021 (yes)
     },
     "maximized": false,
     "normal_geometry": {
       "height": 380,
       "width": 540,
+<<<<<<< HEAD
       "x": 680,
       "y": 278
     },
     "qt": {
       "__class__": "bytearray",
       "__value__": "AdnQywADAAAAAAKoAAABFgAABMMAAAKRAAACqAAAARYAAATDAAACkQAAAAAAAAAAB4AAAAKoAAABFgAABMMAAAKR"
+=======
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAAhsAAAF7AAAAAAAAAAAAAAIbAAABewAAAAAAAAAAB4AAAAAAAAAAAAAAAhsAAAF7"
+>>>>>>> 3824021 (yes)
     },
     "screen": {
       "depth": 32,
@@ -341,26 +474,42 @@
     "frame_geometry": {
       "height": 1016,
       "width": 1850,
+<<<<<<< HEAD
       "x": 25,
+=======
+      "x": 0,
+>>>>>>> 3824021 (yes)
       "y": 0
     },
     "full_screened": false,
     "geometry": {
       "height": 1016,
       "width": 1850,
+<<<<<<< HEAD
       "x": 25,
+=======
+      "x": 0,
+>>>>>>> 3824021 (yes)
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
       "height": 1016,
       "width": 1850,
+<<<<<<< HEAD
       "x": 25,
+=======
+      "x": 0,
+>>>>>>> 3824021 (yes)
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
+<<<<<<< HEAD
       "__value__": "AdnQywADAAAAAAAZAAAAAAAAB1IAAAP3AAAAGQAAAAAAAAdSAAAD9wAAAAAAAAAAB4AAAAAZAAAAAAAAB1IAAAP3"
+=======
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABzkAAAP3AAAAAAAAAAAAAAc5AAAD9wAAAAAAAAAAB4AAAAAAAAAAAAAABzkAAAP3"
+>>>>>>> 3824021 (yes)
     },
     "screen": {
       "depth": 32,
@@ -392,26 +541,96 @@
     "frame_geometry": {
       "height": 720,
       "width": 930,
+<<<<<<< HEAD
       "x": 485,
       "y": 108
+=======
+      "x": 0,
+      "y": 0
+>>>>>>> 3824021 (yes)
     },
     "full_screened": false,
     "geometry": {
       "height": 720,
       "width": 930,
+<<<<<<< HEAD
       "x": 485,
       "y": 108
+=======
+      "x": 0,
+      "y": 0
+>>>>>>> 3824021 (yes)
     },
     "maximized": false,
     "normal_geometry": {
       "height": 720,
       "width": 930,
+<<<<<<< HEAD
       "x": 485,
       "y": 108
     },
     "qt": {
       "__class__": "bytearray",
       "__value__": "AdnQywADAAAAAAHlAAAAbAAABYYAAAM7AAAB5QAAAGwAAAWGAAADOwAAAAAAAAAAB4AAAAHlAAAAbAAABYYAAAM7"
+=======
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA6EAAALPAAAAAAAAAAAAAAOhAAACzwAAAAAAAAAAB4AAAAAAAAAAAAAAA6EAAALP"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "eDP-1-0x123D",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-single-cover-fetch-dialog-geometry": {
+    "frame_geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 767,
+      "y": 324
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 767,
+      "y": 324
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 767,
+      "y": 324
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAL/AAABRAAABCYAAAJjAAAC/wAAAUQAAAQmAAACYwAAAAAAAAAAB4AAAAL/AAABRAAABCYAAAJj"
+>>>>>>> 3824021 (yes)
     },
     "screen": {
       "depth": 32,
@@ -441,7 +660,11 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
+<<<<<<< HEAD
     "/home/tymcftw/Calibre Library": 10
+=======
+    "/home/tymcftw/Calibre Library": 14
+>>>>>>> 3824021 (yes)
   },
   "main_window_central_widget_state": {
     "layout": "wide",

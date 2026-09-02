@@ -6,6 +6,7 @@
       false
     ],
     [
+<<<<<<< HEAD
       "timestamp",
       true
     ],
@@ -14,6 +15,8 @@
       false
     ],
     [
+=======
+>>>>>>> 3824021 (yes)
       "pubdate",
       false
     ],

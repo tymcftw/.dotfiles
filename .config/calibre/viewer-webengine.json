@@ -1,13 +1,19 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
+<<<<<<< HEAD
       "height": 1016,
       "width": 1920,
+=======
+      "height": 720,
+      "width": 640,
+>>>>>>> 3824021 (yes)
       "x": 0,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
+<<<<<<< HEAD
       "height": 1016,
       "width": 1920,
       "x": 0,
@@ -17,12 +23,27 @@
     "normal_geometry": {
       "height": 1016,
       "width": 1920,
+=======
+      "height": 720,
+      "width": 640,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 640,
+>>>>>>> 3824021 (yes)
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
+<<<<<<< HEAD
       "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAP3AAAAAAAAAAAAAAd/AAAD9wAAAAACAAAAB4AAAAAAAAAAAAAAB38AAAP3"
+=======
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAAn8AAALPAAAAAAAAAAAAAAJ/AAACzwAAAAAAAAAAB4AAAAAAAAAAAAAAAn8AAALP"
+>>>>>>> 3824021 (yes)
     },
     "screen": {
       "depth": 32,
@@ -52,11 +73,19 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
+<<<<<<< HEAD
     "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAChAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAAHgAAAA/gAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
     "controls_help_shown_count": 1,
+=======
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAChAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAACgAAAAtAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+>>>>>>> 3824021 (yes)
     "standalone_font_settings": {},
     "standalone_misc_settings": {
       "remember_last_read": true,
@@ -67,6 +96,18 @@
     "standalone_recently_opened": [
       {
         "authors": [
+<<<<<<< HEAD
+=======
+          "David Roediger"
+        ],
+        "key": "/home/tymcftw/Calibre Library/David Roediger/Class, Race and Marxism (3967)/Class, Race and Marxism - David Roediger.epub",
+        "pathtoebook": "/home/tymcftw/Calibre Library/David Roediger/Class, Race and Marxism (3967)/Class, Race and Marxism - David Roediger.epub",
+        "timestamp": "2026-09-01T21:56:57.589Z",
+        "title": "Class, Race and Marxism"
+      },
+      {
+        "authors": [
+>>>>>>> 3824021 (yes)
           "J. W. Mason",
           "Arjun Jayadev"
         ],
