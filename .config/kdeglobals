@@ -1,4 +1,4 @@
-[ColorEffects:Disabled]
+[ColorEffects:Enabled]
 ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
@@ -163,7 +163,7 @@ Speedbar Width=140
 View Style=DetailTree
 
 [PreviewSettings]
-EnableRemoteFolderThumbnail=false
+EnableRemoteFolderThumbnail=true
 MaximumRemoteSize=0
 
 [WM]
