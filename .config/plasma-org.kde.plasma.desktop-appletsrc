@@ -108,7 +108,7 @@ popupWidth=560
 [Containments][94][Applets][107][Configuration][Appearance]
 fontFamily=Noto Sans
 fontWeight=400
-showDate=false
+showDate=true
 showSeconds=Never
 
 [Containments][94][Applets][107][Configuration][ConfigDialog]
