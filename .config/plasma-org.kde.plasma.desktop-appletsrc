@@ -76,11 +76,10 @@ url=file:///usr/share/applications/winboat.desktop
 [Containments][126][General]
 AppletOrder=139;137;140;141;142;147;148
 
-[Containments][69]
-ItemGeometries-0x0=
+[Containments][149]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=233a36be-7884-472a-8b6b-2a2005392e70
+activityId=14d2792b-e89e-4ab1-bc9c-d87e30e4c3e5
 formfactor=0
 immutability=1
 lastScreen=0
