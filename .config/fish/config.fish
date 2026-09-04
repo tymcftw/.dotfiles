@@ -47,8 +47,8 @@ end
 
 ## -- Aliases ---------------------------------------------------------- ##
 
-set DOTFILES_PATH "$HOME/.dotfiles/"
-alias dotfiles 'git --git-dir=$DOTFILES_PATH/ --work-tree=$HOME'
+# set DOTFILES_PATH "$HOME/.dotfiles/"
+# alias dotfiles 'git --git-dir=$DOTFILES_PATH/ --work-tree=$HOME'
 set PATH /home/tymcftw/.cargo/bin /home/linuxbrew/.linuxbrew/bin /home/linuxbrew/.linuxbrew/sbin /usr/local/bin /usr/bin /bin /home/tymcftw/.local/bin /home/tymcftw/.local/share/pnpm /home/tymcftw/.local/share/swiftly/bin /usr/local/sbin /var/lib/flatpak/exports/bin /usr/lib/jvm/default/bin /usr/bin/site_perl /usr/bin/vendor_perl /usr/bin/core_perl
 set SOPS_EDITOR nano
 set EDITOR nano
