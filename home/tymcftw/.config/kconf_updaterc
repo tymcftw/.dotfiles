@@ -6,29 +6,29 @@ done=50-krunner-activate-typing
 mtime=1788942803
 
 [ark_move_dirhistory_to_state_config.upd]
-ctime=1789125252
+ctime=1787768779
 done=50-krunner-activate-typing,ark-move-dirhistory-to-state-config
-mtime=1789038578
+mtime=1787306811
 
 [dolphin_detailsmodesettings.upd]
-ctime=1789125254
+ctime=1788288539
 done=ark-move-dirhistory-to-state-config,rename-leading-padding,rename-side-padding,move-content-display
-mtime=1789026613
+mtime=1788225294
 
 [dolphin_replace_view_mode_with_view_settings_in_toolbar.upd]
-ctime=1789125254
+ctime=1788288539
 done=move-content-display,replace-view-mode-with-view-settings-in-toolbar
-mtime=1789026613
+mtime=1788225294
 
 [dolphin_statusandlocationbarssettings.upd]
-ctime=1789125254
+ctime=1788288539
 done=replace-view-mode-with-view-settings-in-toolbar,25.04-convert-bool-showstatusbar-to-enum-showstatusbar
-mtime=1789026613
+mtime=1788225294
 
 [dolphin_tab_key_shortcut_for_focus_other_view.upd]
-ctime=1789125254
+ctime=1788288539
 done=25.04-convert-bool-showstatusbar-to-enum-showstatusbar,tab_key_shortcut_for_focus_other_view
-mtime=1789026613
+mtime=1788225294
 
 [gtkconfig.upd]
 ctime=1789019624
@@ -36,9 +36,9 @@ done=tab_key_shortcut_for_focus_other_view,gtk_theme,dont_use_gtk_css_for_window
 mtime=1788942122
 
 [kcalcrc.upd]
-ctime=1789125262
+ctime=1787768793
 done=remove_deprecated_gtk4_option_v2
-mtime=1789039039
+mtime=1787304169
 
 [kwin.upd]
 ctime=1789019624

@@ -7,6 +7,18 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 ## -- End Tide Prompt Configuration ------------------------------------ ##
 
+####################################
+## Start SSH Agent if not running ##
+####################################
+set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.sock
+
+#############################
+## Fallback if above fails ##
+#############################
+if not set -q SSH_AUTH_SOCK
+    set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
+end
+
 #################
 ## Tide Prompt ##
 #################
@@ -58,4 +70,5 @@ function data2ascii
     | xxd -r -p
     echo
 end
+set -gx fish_lsp_log_file /tmp/fish-lsp.log
 set -gx fish_lsp_log_file /tmp/fish-lsp.log
