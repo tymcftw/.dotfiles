@@ -1,0 +1,12 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Duck-ai-image-2026-09-09-00-17.jpeg
+Name1[$e]=Duck-ai-image-2026-09-09-00-17.jpeg
+
+[SideBar]
+InformationSplitterSizes=0,0

@@ -1,0 +1,12 @@
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=guake
+count=1
+
+[Session: saved at previous logout]
+clientId1=10157109cad2000178866233400000012930009
+count=1
+program1=firefox
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10157109cad2000178866233400000012930009
+restartStyleHint1=0
+userId1=tymcftw

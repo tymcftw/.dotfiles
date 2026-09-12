@@ -1,0 +1,25 @@
+[DetailsMode]
+HighlightEntireRow=false
+LeftPadding=0
+RightPadding=0
+
+[General]
+CloseSplitViewChoice=RightView
+DoubleClickViewAction=none
+EditableUrl=true
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowZoomSlider=true
+Version=202
+ViewPropsTimestamp=2026,8,28,13,10,33.298
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[PreviewSettings]
+Plugins=glycin-heif,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs,gsf-office

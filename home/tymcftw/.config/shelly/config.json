@@ -1,0 +1,12 @@
+{
+  "FileSizeDisplay": "Megabytes",
+  "ParallelDownloadCount": 100,
+  "DownloadAddressFamilyPolicy": "PreferIPv4",
+  "ProgressBarStyle": "Blocks",
+  "ProgressBarWidth": 24,
+  "OutputMode": "singlepane",
+  "AppImageInstallPath": "/home/tymcftw/Projects",
+  "AutoConfirmCacheClean": false,
+  "DisableCacheClean": false,
+  "AurUrl": "https://aur.archlinux.org"
+}

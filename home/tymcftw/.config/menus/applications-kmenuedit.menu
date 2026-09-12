@@ -1,0 +1,69 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Exclude>
+   <Filename>com.jetbrains.RustRover.desktop</Filename>
+   <Filename>github-desktop.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Merge type="files"/>
+   <Filename>org.sqlitebrowser.sqlitebrowser.desktop</Filename>
+   <Filename>com.github.arshubham.gitignore.desktop</Filename>
+   <Filename>net.werwolv.ImHex.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.gnome.Meld.desktop</Filename>
+   <Filename>micro.desktop</Filename>
+   <Filename>assistant.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+   <Filename>vscodium.desktop</Filename>
+   <Filename>vscodium-wayland.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+   <Menuname>XUtilities</Menuname>
+   <Merge type="files"/>
+   <Filename>org.kde.ark.desktop</Filename>
+   <Filename>arch-update.desktop</Filename>
+   <Filename>org.sqlitebrowser.sqlitebrowser.desktop</Filename>
+   <Filename>org.kde.plasma.emojier.desktop</Filename>
+   <Filename>org.kde.filelight.desktop</Filename>
+   <Filename>com.github.tchx84.Flatseal.desktop</Filename>
+   <Filename>guake.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.kde.kcalc.desktop</Filename>
+   <Filename>org.keepassxc.KeePassXC.desktop</Filename>
+   <Filename>org.kde.kfind.desktop</Filename>
+   <Filename>org.kde.kleopatra.desktop</Filename>
+   <Filename>org.kde.kwrite.desktop</Filename>
+   <Filename>limine-snapper-restore.desktop</Filename>
+   <Filename>se.sjoerd.lockpicker.desktop</Filename>
+   <Filename>micro.desktop</Filename>
+   <Filename>com.shellyorg.shelly.desktop</Filename>
+   <Filename>org.kde.spectacle.desktop</Filename>
+   <Filename>vim.desktop</Filename>
+   <Filename>vscodium.desktop</Filename>
+   <Filename>vscodium-wayland.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>winetricks.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>com.jetbrains.RustRover.desktop</Filename>
+   <Filename>winetricks.desktop</Filename>
+   <Filename>github-desktop.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>

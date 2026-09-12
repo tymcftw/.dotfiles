@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Journalctl desktop notification
+Comment=Automatically notifies you when an error message appears in Journalctl
+Icon=notifications
+Exec=journalctl-desktop-notification
+Terminal=false
+Type=Application
+Categories=Utility
